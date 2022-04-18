@@ -1,0 +1,84 @@
+/*
+@font-face {
+  font-family: 'BlackOpsOne';
+  src: url("../src/fonts/black-ops-one.regular.ttf");
+}*/
+
+@font-face {
+  font-family: 'BlackOpsOne';
+  src: url("../src/fonts/BlackOpsOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Dhyana';
+  src: url("../src/fonts/Dhyana-Regular.ttf");
+}
+
+.css-fondos {
+  background: linear-gradient(136.9deg, rgba(89, 24, 90, 0.2) 24.17%, rgba(185, 0, 96, 0.2) 57.15%), linear-gradient(279deg, rgba(185, 0, 96, 0.2) 21.59%, rgba(89, 24, 90, 0.2) 47.99%), #1C182F;
+  background-blend-mode: color-dodge, color-dodge, normal;
+
+}
+.css-fondo-animate {
+  background: linear-gradient(136.9deg, rgba(89, 24, 90, 0.2) 24.17%, rgba(185, 0, 96, 0.2) 57.15%), linear-gradient(279deg, rgba(185, 0, 96, 0.2) 21.59%, rgba(89, 24, 90, 0.2) 47.99%), #1C182F;
+  background-blend-mode: color-dodge, color-dodge, normal;
+  background-size: 400% 400%;
+  position: relative;
+  -webkit-animation: fondoanimado 55s ease infinite;
+  -moz-animation: fondoanimado 55s ease infinite;
+  -o-animation: fondoanimado 55s ease infinite;
+  animation: fondoanimado 55s ease infinite;
+}
+
+@-webkit-keyframes fondoanimado {
+  0%{background-position:0% 11%}
+  50%{background-position:100% 90%}
+  100%{background-position:0% 11%}
+}
+@-moz-keyframes fondoanimado {
+  0%{background-position:0% 11%}
+  50%{background-position:100% 90%}
+  100%{background-position:0% 11%}
+}
+@-o-keyframes fondoanimado {
+  0%{background-position:0% 11%}
+  50%{background-position:100% 90%}
+  100%{background-position:0% 11%}
+}
+@keyframes fondoanimado {
+  0%{background-position:0% 11%}
+  50%{background-position:100% 90%}
+  100%{background-position:0% 11%}
+}
+
+.css-logo-animate {
+  background: linear-gradient(270deg, #0d9d9c, #59185a);
+  background-size: 400% 400%;
+  color:transparent;
+  background-clip: text;
+
+  -webkit-animation: logo 30s ease infinite;
+  -moz-animation: logo 30s ease infinite;
+  animation: logo 30s ease infinite;
+}
+
+@-webkit-keyframes logo {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes logo {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes logo {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+.fondo-logo{
+  background: linear-gradient(180deg, rgba(107, 67, 167, 0.1) 0%, rgba(255, 75, 168, 0.1) 100%);
+  backdrop-filter: blur(100px);
+}

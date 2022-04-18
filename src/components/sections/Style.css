@@ -1,0 +1,92 @@
+.clearfix:after {
+	content: '';
+	width: 0;
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+
+/*
+* Content & Hexagon 
+* */
+.content {
+	margin: 180px auto 40px;
+	width: 300px;
+	padding-bottom: 30px;
+}
+
+.hexagon {
+	margin-top: 30px;
+	height: 50px;
+	width: 90px;
+	background: #FFF;
+	position: relative;
+	float: left;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.hexagon:before {
+	position: absolute;
+	bottom: 100%;
+	content: '';
+	height: 0;
+	width: 0;
+	border-width: 0 45px 30px 45px;
+	border-style: solid;
+	border-color: #FFF transparent;
+}
+
+.hexagon:after {
+	position: absolute;
+	top: 100%;
+	content: '';
+	height: 0;
+	width: 0;
+	border-width: 30px 45px 0 45px;
+	border-style: solid;
+	border-color: #FFF transparent;
+}
+
+.top, .bottom {
+	float: left;
+	clear: left;
+}
+
+.top {
+	margin-left: 48px;
+	margin-top: 3px;
+}
+
+.bottom {
+	margin-top: 3px;
+}
+
+
+/* 
+* Social Icons
+* */
+.hexagon[class*="icon-"]{
+	background-color: #FFF;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.icon-twitter {
+  background-image: url('http://k36.kn3.net/4/F/2/D/A/7/076.png');
+}
+
+.icon-dribble {
+  background-image: url('http://k44.kn3.net/5/6/B/C/E/7/D3C.png');
+}
+.icon-youtube {
+  background-image: url('http://k38.kn3.net/8/E/F/3/0/C/662.png');
+}
+.icon-plixi {
+  background-image: url('http://k42.kn3.net/1/C/A/4/3/4/480.png');
+}
+.icon-tumblr {
+  background-image: url('http://k35.kn3.net/5/7/0/0/E/4/C32.png');
+}
+
