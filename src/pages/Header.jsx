@@ -31,7 +31,7 @@ const Header = () => {
     }
 
     return (
-        <header className='w-full top-0 sm:w-20 lg:w-56 sm:h-full bg-color1 fixed z-10 sm:overflow-y-scroll no-scrollbar shadow-md'>
+        <header className='w-full top-0 sm:w-20 lg:w-56 sm:h-full bg-color1 fixed z-10 sm:overflow-y-scroll no-scrollbar shadow-shadow-menu'>
             <nav className="shadow-lg">
                 <div className="max-w-6xl mx-auto px-4">
                     <div className="flex justify-between lg:justify-center lg:py-8">
@@ -55,7 +55,7 @@ const Header = () => {
                         <li className="sm:flex ">
                             <div className='menu-item bg-color5 w-3 hidden sm:block'></div>
                             {(location.pathname == "/") ?
-                                <a onClick={() => activeMenu(0)} href="#Home" className="flex gap-2 sm:gap-0 lg:gap-3 sm:w-full lg:pl-5 pl-4 text-sm px-2 py-4 hover:text-white hover:bg-color4 focus:bg-color4 font-semibold lg:font-light">
+                                <a onClick={() => activeMenu(0)} href="/#Home" className="flex gap-2 sm:gap-0 lg:gap-3 sm:w-full lg:pl-5 pl-4 text-sm px-2 py-4 hover:text-white hover:bg-color4 focus:bg-color4 font-semibold lg:font-light">
                                     <InlineIcon style={{ display: "inline" }} className='text-[1.5rem] sm:text-[2rem] text-color1 sm:text-white lg:text-[2rem]' icon="clarity:home-line" />
                                     <h1 className='flex justify-center items-center sm:hidden lg:flex lg:text-[1.3rem] lg:text-white'> Inicio </h1>
                                 </a>
@@ -70,7 +70,7 @@ const Header = () => {
                         <li className="sm:flex ">
                             
                             <div className='menu-item bg-color5 w-3 hidden sm:block'></div>
-                            <a onClick={() => activeMenu(1)} href="#Services" className="flex gap-2 sm:gap-0 lg:gap-3 sm:w-full lg:pl-5 pl-4 text-sm px-2 py-4 hover:text-white hover:bg-color4 focus:bg-color4 font-semibold lg:font-light">
+                            <a onClick={() => activeMenu(1)} href="/#Services" className="flex gap-2 sm:gap-0 lg:gap-3 sm:w-full lg:pl-5 pl-4 text-sm px-2 py-4 hover:text-white hover:bg-color4 focus:bg-color4 font-semibold lg:font-light">
                                 <InlineIcon style={{ display: "inline" }} className='text-[1.5rem] text-color1 sm:text-white lg:text-[2rem]' icon="carbon:cloud-service-management" />
                                 <h1 className='flex justify-center items-center sm:hidden lg:flex lg:text-[1.3rem] lg:text-white'> Servicios </h1>
                             </a>
@@ -78,14 +78,14 @@ const Header = () => {
                         <li className="sm:flex ">
                             
                             <div className='menu-item bg-color5 w-3 hidden sm:block'></div>
-                            <a onClick={() => activeMenu(2)} href="#Profile" className="flex gap-2 sm:gap-0 lg:gap-3 sm:w-full lg:pl-5 pl-4 text-sm px-2 py-4 hover:text-white hover:bg-color4 focus:bg-color4 font-semibold lg:font-light">
+                            <a onClick={() => activeMenu(2)} href="/#Profile" className="flex gap-2 sm:gap-0 lg:gap-3 sm:w-full lg:pl-5 pl-4 text-sm px-2 py-4 hover:text-white hover:bg-color4 focus:bg-color4 font-semibold lg:font-light">
                                 <InlineIcon style={{ display: "inline" }} className='text-[1.5rem] text-color1 sm:text-white lg:text-[2rem]' icon="carbon:user-profile" />
                                 <h1 className='flex justify-center items-center sm:hidden lg:flex lg:text-[1.3rem] lg:text-white'> Perfil </h1>
                             </a>
                         </li>
                         <li className="sm:flex ">
                             <div className='menu-item bg-color5 w-3 hidden sm:block'></div>
-                            <a onClick={() => activeMenu(3)} href="#Projects" className="flex gap-2 sm:gap-0 lg:gap-3 sm:w-full lg:pl-5 pl-4 text-sm px-2 py-4 hover:text-white hover:bg-color4 focus:bg-color4 font-semibold lg:font-light">
+                            <a onClick={() => activeMenu(3)} href="/#Projects" className="flex gap-2 sm:gap-0 lg:gap-3 sm:w-full lg:pl-5 pl-4 text-sm px-2 py-4 hover:text-white hover:bg-color4 focus:bg-color4 font-semibold lg:font-light">
                                 <InlineIcon style={{ display: "inline" }} className='text-[1.5rem] text-color1 sm:text-white lg:text-[2rem]' icon="cil:folder-open" />
                                 <h1 className='flex justify-center items-center sm:hidden lg:flex lg:text-[1.3rem] lg:text-white'> Proyectos </h1>
                             </a>
@@ -99,7 +99,7 @@ const Header = () => {
                         </li>
                         <li className="sm:flex ">
                             <div className='menu-item bg-color5 w-3 hidden sm:block'></div>
-                            <a onClick={() => activeMenu(5)} href="#CV" className="flex gap-2 sm:gap-0 lg:gap-3 sm:w-full lg:pl-5 pl-4 text-sm px-2 py-4 hover:text-white hover:bg-color4 focus:bg-color4 font-semibold lg:font-light">
+                            <a onClick={() => activeMenu(5)} href="/#CV" className="flex gap-2 sm:gap-0 lg:gap-3 sm:w-full lg:pl-5 pl-4 text-sm px-2 py-4 hover:text-white hover:bg-color4 focus:bg-color4 font-semibold lg:font-light">
                                 <InlineIcon style={{ display: "inline" }} className='text-[1.5rem] text-color1 sm:text-white lg:text-[2rem]' icon="iconoir:page-flip" />
                                 <h1 className='flex justify-center items-center sm:hidden lg:flex lg:text-[1.3rem] lg:text-white'> CV </h1>
                             </a>
