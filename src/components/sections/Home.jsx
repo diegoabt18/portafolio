@@ -17,7 +17,7 @@ const Home = () => {
         window.open("https://www.linkedin.com/in/diego-botello/")
     }
     return (
-        < div className='css-fondos'>
+        < div className='bg-color10'>
             <div id="Home" className='xl:h-screen pt-4 flex flex-col lg:mr-6 gap-2 mt-16 px-4 sm:mt-0 sm:ml-28 lg:ml-60 xl:ml-50'>
                 {/*<div className='flex h-fit'>
                     <h1 className='pt-4 font-Dhyana text-xl text-white border-b-4 border-color4 lg:text-[1.6rem]'>Inicio</h1>

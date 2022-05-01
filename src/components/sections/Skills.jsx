@@ -29,7 +29,7 @@ const Skills = () => {
     }
 
     return (
-        <div className='bg-color10'>
+        <div className='bg-color11'>
             <div id="Skills" className='lg:pt-10 font-Poppins  flex flex-col mr-6 gap-2 mt-16 px-4 sm:mt-10 xl:mt-0 sm:ml-28 lg:ml-60 xl:ml-50'>
 
                 <div className='flex flex-col justify-center items-center text-color5 font-light pb-6'>

@@ -32,7 +32,7 @@ const Services = () => {
     ]
 
     return (
-        <div className='bg-color10'>
+        <div className='bg-color11'>
             <div id="Services" className=' flex flex-col sm:mr-6 gap-2 mt-16 px-4 sm:mt-0 sm:ml-28 lg:ml-60 xl:ml-50'>
                 {/*<div className='flex h-fit'>
                 <h1 className='pt-4 font-Dhyana text-xl text-white border-b-4 border-color4 lg:text-[1.6rem]'>Servicios</h1>

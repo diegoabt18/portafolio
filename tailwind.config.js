@@ -27,8 +27,9 @@ module.exports = {
         color7: '#322FCA',
         color8: 'rgba(28, 24, 47,0.9)',
         color9: 'rgba(224, 204, 210, 0.9)',
-        color10: '#23263a',
-        color11: '#42183c'
+        color10: '#24263B',
+        color11: '#1F2235',
+        color12:'##23263A'
       },
       screens: {
         'xs': { 'min': '320px' },

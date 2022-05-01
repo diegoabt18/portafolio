@@ -27,19 +27,19 @@ const Contac = () => {
     }
 
     return (
-        <div className='bg-color10'>
+        <div className='bg-color11'>
             <div id="Contac" className='flex  font-Poppins flex-col pt-12 xl:mr-6 gap-2 mt-16 px-4 sm:mt-0 sm:ml-28 lg:ml-60 xl:ml-50'>
                 <div className='flex flex-col justify-center items-center text-color5 font-light'>
                     <h1 className='text-[1.7rem] sm:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem]  text-center font-bold text-color4'>Contactame</h1>
                 </div>
                 <div className='grid grid-cols-3 gap-8'>
-                    <div className='css-fondos shadow-shadow-menu aspect-video'>
+                    <div className='bg-color10  aspect-video'>
                         hola1
                     </div>
-                    <div  className='css-fondos shadow-shadow-menu' > 
+                    <div  className='bg-color10 ' > 
                         hola2
                     </div>
-                    <div className='css-fondos shadow-shadow-menu'>
+                    <div className='bg-color10 '>
                         hola3
                     </div>
                 </div>
