@@ -34,7 +34,8 @@ const Home = () => {
                         <h1 className='font-Poppins text-[1.7rem] md:text-[2rem] font-bold xl:text-[3rem]'>Hola,</h1>
                         <h1 className='font-Poppins text-[1.3rem] md:text-[1.6rem] font-normal xl:text-[2rem]'>Bienvenidos a mi portafolio web</h1>
                         <p className='font-Poppins font-extralight text-color5 xl:text-[1.5rem]'> Mi nombre es Diego Botello, soy desarrollador web full stack y profesional en el area de ingenieria de sistemas.</p>
-                        <NavLink to={"/"} className="bg-color3 mt-4 w-1/2  lg:w-1/2 rounded-md text-center py-2 font-Poppins text-[1.3rem]">Ver CV</NavLink>
+                        <NavLink to={"/"} className="bg-color3  border-b-4 border-pink-900 hover:bg-pink-600 font-bold mt-4 w-1/2  lg:w-1/2 rounded-full text-center py-2 font-Poppins text-[1.3rem]">Ver CV</NavLink>
+
                     </div>
                     <div>
                         <div className='flex justify-center pt-4 '>

@@ -17,8 +17,15 @@
 .css-fondos {
   background: linear-gradient(136.9deg, rgba(89, 24, 90, 0.2) 24.17%, rgba(185, 0, 96, 0.2) 57.15%), linear-gradient(279deg, rgba(185, 0, 96, 0.2) 21.59%, rgba(89, 24, 90, 0.2) 47.99%), #1C182F;
   background-blend-mode: color-dodge, color-dodge, normal;
+}
+
+.css-fondos2 {
+  transform: rotate(180deg);
+  background:  linear-gradient(136.9deg, rgba(89, 24, 90, 0.2) 24.17%, rgba(185, 0, 96, 0.2) 57.15%), linear-gradient(279deg, rgba(185, 0, 96, 0.2) 21.59%, rgba(89, 24, 90, 0.2) 47.99%), #1C182F;
+  background-blend-mode: color-dodge, color-dodge, normal;
 
 }
+
 .css-fondo-animate {
   background: linear-gradient(136.9deg, rgba(89, 24, 90, 0.2) 24.17%, rgba(185, 0, 96, 0.2) 57.15%), linear-gradient(279deg, rgba(185, 0, 96, 0.2) 21.59%, rgba(89, 24, 90, 0.2) 47.99%), #1C182F;
   background-blend-mode: color-dodge, color-dodge, normal;
