@@ -14,7 +14,9 @@ function App() {
     <div className="App css-fondo">
       <Header/>
       <Routes>
-        <Route path='/' element={<Index/>} />
+        <Route path='/' element={<Index/>} >
+            <Route path='/:Category' element={<Index/>} />
+        </Route>
         <Route path='/project/:id' element={<Project/>} />
       </Routes>
     </div>

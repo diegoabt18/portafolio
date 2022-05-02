@@ -1,6 +1,7 @@
 import React from 'react'
 import emailjs from 'emailjs-com'
 import { NavLink } from 'react-router-dom';
+import { Icon, InlineIcon } from '@iconify/react';
 
 const Contac = () => {
 
@@ -27,21 +28,40 @@ const Contac = () => {
     }
 
     return (
-        <div className='bg-color11'>
+        <div className='bg-color12'>
             <div id="Contac" className='flex  font-Poppins flex-col pt-12 xl:mr-6 gap-2 mt-16 px-4 sm:mt-0 sm:ml-28 lg:ml-60 xl:ml-50'>
                 <div className='flex flex-col justify-center items-center text-color5 font-light'>
                     <h1 className='text-[1.7rem] sm:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem]  text-center font-bold text-color4'>Contactame</h1>
                 </div>
-                <div className='grid grid-cols-3 gap-8'>
-                    <div className='bg-color10  aspect-video'>
-                        hola1
+                <div className='grid grid-cols-3 gap-8 text-color5 font-Poppins'>
+                    <div className='css-fondos p-6 shadow-shadow-menu rounded-xl flex gap-8 justify-center items-center '>
+                        <div>
+                            <InlineIcon style={{ display: "inline" }} className='text-[3rem] sm:text-[1.8rem] lg:text-[2.2rem]  w-full text-center text-color3 ' icon="bi:telephone-fill" />
+                        </div>
+                        <div>
+                            <h1>Numero telefonico</h1>
+                            <p>+57 3124068077</p>
+                        </div>
                     </div>
-                    <div  className='bg-color10 ' > 
-                        hola2
+                    <div className='css-fondos p-6 shadow-shadow-menu rounded-xl flex gap-8 justify-center items-center '>
+                        <div>
+                            <InlineIcon style={{ display: "inline" }} className='text-[3rem] sm:text-[1.8rem] lg:text-[2.2rem]  w-full text-center text-color3 ' icon="clarity:email-solid-badged" />
+                        </div>
+                        <div>
+                            <h1>Correo electronico</h1>
+                            <p>diegoalbertbt@gmail.com</p>
+                        </div>
                     </div>
-                    <div className='bg-color10 '>
-                        hola3
+                    <div className='css-fondos p-6 shadow-shadow-menu rounded-xl flex gap-8 justify-center items-center '>
+                        <div>
+                            <InlineIcon style={{ display: "inline" }} className='text-[3rem] sm:text-[1.8rem] lg:text-[2.2rem]  w-full text-center text-color3 ' icon="bi:linkedin" />
+                        </div>
+                        <div>
+                            <h1>linkedin</h1>
+                            <p>Diego Botello</p>
+                        </div>
                     </div>
+
                 </div>
                 <div className='pt-10 font-Poppins '>
                     <form onSubmit={sendMessage} >

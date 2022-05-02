@@ -29,7 +29,8 @@ module.exports = {
         color9: 'rgba(224, 204, 210, 0.9)',
         color10: '#24263B',
         color11: '#1F2235',
-        color12:'##23263A'
+        color12:'#2A193A',
+        color13:'#221A3A'
       },
       screens: {
         'xs': { 'min': '320px' },

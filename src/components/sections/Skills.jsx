@@ -29,7 +29,7 @@ const Skills = () => {
     }
 
     return (
-        <div className='bg-color11'>
+        <div className='bg-color12'>
             <div id="Skills" className='lg:pt-10 font-Poppins  flex flex-col mr-6 gap-2 mt-16 px-4 sm:mt-10 xl:mt-0 sm:ml-28 lg:ml-60 xl:ml-50'>
 
                 <div className='flex flex-col justify-center items-center text-color5 font-light pb-6'>
@@ -82,11 +82,16 @@ const Skills = () => {
                                     <p><span className='font-bold text-color5'>Duración: </span>6 meses</p>
                                     <p><span className='font-bold text-color5'>Lenguaje: </span>HTML5 (most recent)</p>
                                     <p><span className='font-bold text-color5'>Descripcción: </span>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. Molestias, officiis ipsum eum accusantium sit
-                                        voluptas eos fugiat corrupti deleniti est doloremque
-                                        esse, inventore dolore. Earum ut minus accusantium
-                                        nisi veritatis?
+
+                                        Sus siglas vienen del inglés 'HyperText Markup Language'. Traducido al español
+                                        quiere decir 'Lenguaje de Marcado e HiperTexto'. Este lenguaje de marcado nos permite
+                                        crear la estructura
+                                        (o cuerpo) básica de un sitio web mediante tags (etiquetas). El número cinco (5) hace
+                                        referencia a la versión
+                                        en la que se encuentra actualmente. Todos los titulos, párrafos, formularios, videos,
+                                        entre muchísimas cosas más,
+                                        las tenemos gracias a este maravilloso lenguaje.
+
                                     </p>
                                     <div className="code-icon"></div>
                                 </div>
@@ -100,11 +105,17 @@ const Skills = () => {
                                     <p><span className='font-bold text-color5'>Duración: </span>6 meses</p>
                                     <p><span className='font-bold text-color5'>Lenguaje: </span>CSS (most recent)</p>
                                     <p><span className='font-bold text-color5'>Descripcción: </span>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. Molestias, officiis ipsum eum accusantium sit
-                                        voluptas eos fugiat corrupti deleniti est doloremque
-                                        esse, inventore dolore. Earum ut minus accusantium
-                                        nisi veritatis?
+
+                                        CSS es un lenguaje de estilo. Sus siglas también tienen un significado 'Cascading
+                                        StyleSheet',
+                                        su traducción es 'Hojas de estilo de cascada'. Seguro ya sabrás qué quiere decir el
+                                        número tres (3),
+                                        ¿verdad? ¡Exacto! Su versión actual.
+                                        Este lenguaje de estilos nos permite... pues, darle estilos al cuerpo de nuestro sitio
+                                        web.
+                                        Es el maquillaje de HTML. Todo el diseño de un sitio va directamente relacionado con
+                                        este lenguaje.
+
                                     </p>
                                     <div className="code-icon"></div>
                                 </div>
@@ -118,11 +129,15 @@ const Skills = () => {
                                     <p><span className='font-bold text-color5'>Duración: </span>6 meses</p>
                                     <p><span className='font-bold text-color5'>Lenguaje: </span>JS (most recent)</p>
                                     <p><span className='font-bold text-color5'>Descripcción: </span>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. Molestias, officiis ipsum eum accusantium sit
-                                        voluptas eos fugiat corrupti deleniti est doloremque
-                                        esse, inventore dolore. Earum ut minus accusantium
-                                        nisi veritatis?
+
+                                        ¡Bendito JavaScript! Es un lenguaje de programación que nos permite añadir, eliminar,
+                                        aplicar animaciones o
+                                        efectos a los componentes de nuestro sitio. Es la herramienta perfecta para realizar
+                                        sitios web dinámicos
+                                        y muy atractivos de la mano de CSS y HTML. Con el paso del tiempo ha evolucionado de
+                                        manera exponencial y
+                                        ahora mismo es absolutamente necesario conocerlo si quieres ser desarrollador web.
+
                                     </p>
                                     <div className="code-icon"></div>
                                 </div>

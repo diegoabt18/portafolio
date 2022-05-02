@@ -1,18 +1,47 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import CardProject from '../cards/CardProject'
 import covid19 from '../../images/covid19.png'
 import ecommerce from '../../images/ecommerce.png'
 import json from '../../../Data.js'
 import CategoryButton from '../actions/CategoryButton'
+import { useParams } from 'react-router-dom'
 
 const Projects = () => {
+
+  const { Category } = useParams()
 
   const [data, setData] = useState(json.productos)
   console.log(ecommerce)
 
+  useEffect(() => {
+    console.log(Category)
+    if (Category != undefined) {
+      selectCategory(Category)
+
+    }
+
+  }, [Category])
+
+
+  function selectCategory(category) {
+    if (category == "All") {
+      setData(json.productos)
+    }
+    else {
+      
+      const filter = json.productos.filter(item => {
+        if (item.lenguajes.indexOf(category) != -1) {
+          return true
+        }
+      })
+      setData(filter)
+    }
+
+  }
+
 
   return (
-    <div className='bg-color10'>
+    <div className='bg-color13'>
       <div id="Projects" className='  pt-4 flex flex-col lg:mr-6 gap-2 mt-16 px-4 sm:mt-0 sm:ml-28 lg:ml-60 xl:ml-50 '>
         <div className='flex flex-col justify-center items-center text-color5 font-light pb-6'>
           <h1 className='text-[1.7rem] sm:text-[2rem] lg:text-[2.2rem] xl:text-[3rem]  text-center font-bold text-color4'>Mis Proyectos</h1>
@@ -24,10 +53,10 @@ const Projects = () => {
         </div>
         <div>
           <div className='flex flex-wrap items-center w-full justify-center gap-2'>
-            <CategoryButton />
-            <CategoryButton />
-            <CategoryButton />
-            <CategoryButton />
+            <CategoryButton text="Todos" link="All" />
+            <CategoryButton text="React" link="React" />
+            <CategoryButton text="Laravel" link="Laravel" />
+            <CategoryButton text="Php" link="Php" />
           </div>
 
           <div className='grid grid-cols-2 sm:grid-cols-3 gap-3 pt-10  overflow-hidden'>

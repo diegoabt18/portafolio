@@ -31,7 +31,7 @@ const Header = () => {
     }
 
     return (
-        <header className='w-full top-0 sm:w-20 lg:w-56 sm:h-full bg-color11 fixed z-10 sm:overflow-y-scroll no-scrollbar shadow-shadow-menu'>
+        <header className='w-full top-0 sm:w-20 lg:w-56 sm:h-full bg-color13 fixed z-10 sm:overflow-y-scroll no-scrollbar shadow-shadow-menu'>
             <nav className="shadow-lg">
                 <div className="max-w-6xl mx-auto px-4">
                     <div className="flex justify-between lg:justify-center lg:py-8">
@@ -50,7 +50,7 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-                <div className="hidden mobile-menu bg-color5 sm:flex sm:overflow-hidden sm:bg-color11  ">
+                <div className="hidden mobile-menu bg-color5 sm:flex sm:overflow-hidden sm:bg-color13  ">
                     <ul className="font-Poppins  sm:w-full sm:flex sm:flex-col  ">
                         <li className="sm:flex ">
                             <div className='menu-item bg-color5 w-3 hidden sm:block'></div>
