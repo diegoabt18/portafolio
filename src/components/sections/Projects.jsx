@@ -45,10 +45,8 @@ const Projects = () => {
       <div id="Projects" className='  pt-4 flex flex-col lg:mr-6 gap-2 mt-16 px-4 sm:mt-0 sm:ml-28 lg:ml-60 xl:ml-50 '>
         <div className='flex flex-col justify-center items-center text-color5 font-light pb-6'>
           <h1 className='text-[1.7rem] sm:text-[2rem] lg:text-[2.2rem] xl:text-[3rem]  text-center font-bold text-color4'>Mis Proyectos</h1>
-          <p className='xl:w-[60%]  text-center sm:text-[1.1rem] pt-2 pb-4 font-Poppins'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Corrupti, tenetur ipsa suscipit delectus repellendus sed,
-            quod adipisci in dicta ut ad nobis inventore deleniti!
-            Ipsa exercitationem itaque tenetur vero suscipit.
+          <p className='xl:w-[60%]  text-center sm:text-[1.1rem] pt-2 pb-4 font-Poppins'>
+            En esta seccion podras ver mi trabajo, observa a detalle cada uno de mis poryectos realizados
           </p>
         </div>
         <div>
