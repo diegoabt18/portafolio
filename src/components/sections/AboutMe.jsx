@@ -27,7 +27,7 @@ const AboutMe = () => {
                         <h1 className='text-[1.3rem] sm:text-[1.5rem] xl:text-[2rem] text-color3 font-bold pb-2 '>Sobre mÍ</h1>
 
                         <p className='sm:text-[1.1rem] pb-4'>
-                            ¡Hola! Mi nombre es Diego tengo 24 años y disfruto desarrollando cosas en el mundo tecnológico. Mi interés en el desarrollo comenzó desde mi escuela comencé con los conceptos basicos de programacion creando algorimos sencillos y luego comencé mis sueños de ser un buen desarrollador en el futuro.
+                            ¡Hola! Mi nombre es Diego tengo 24 años y disfruto desarrollando cosas en el mundo tecnológico. Mi interés en el desarrollo comenzó desde mi escuela, aprendiondo los conceptos basicos de programacion y creando algorimos sencillos y luego comencé mis sueños de ser un buen desarrollador en el futuro.
                             Avanzando rápidamente hasta hoy e realizado varios curso y culmine la Universidad en ingenieria de sistemas, aprendí mucho del mundo de la tecnología y los lenguajes de programación como java, JavaScript y Python utilizando framework de desarrollo como, Django, Vue, React ahora me estoy enfocando en el desarrollo web y aprendiendo cosas nuevas todos los días para ser un buen desarrollador.
                         </p>
                         <div className='grid grid-cols-1 px-6 sm:px-0 md:grid-cols-2 md:gap-y-6'>
