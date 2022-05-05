@@ -28,7 +28,7 @@ const Home = () => {
                     <div className='flex flex-col flex-wrap'>
                         <div className='flex gap-4 justify-center sm:justify-end items-center'>
                        
-                            <a href="src\public\cv\DiegoBotelloCV.pdf" download={"DiegoBotello"} className="bg-color4 xl:hidden flex gap-2 px-1 justify-end items-center  hover:bg-pink-600 font-semibold  rounded-md text-center   font-Poppins text-[1.3rem] text-color1">
+                            <a href=".\src\public\cv\DiegoBotelloCV.pdf" download={"DiegoBotello"} className="bg-color4 xl:hidden flex gap-2 px-1 justify-end items-center  hover:bg-pink-600 font-semibold  rounded-md text-center   font-Poppins text-[1.3rem] text-color1">
                                 Ver <InlineIcon style={{ display: "inline" }} className='text-[2.1rem] text-color1' icon="academicons:cv-square" />
                             </a>
                             <InlineIcon onClick={whatsapp} style={{ display: "inline" }} className='text-[2.6rem] text-color4 cursor-pointer' icon="fa-brands:whatsapp-square" />
