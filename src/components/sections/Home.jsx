@@ -23,13 +23,14 @@ const Home = () => {
                     <h1 className='pt-4 font-Dhyana text-xl text-white border-b-4 border-color4 lg:text-[1.6rem]'>Inicio</h1>
     </div>*/}
                 <div className='text-white h-full grid grid-cols-1 xl:grid-cols-2 justify-center items-center'>
-                    
+
 
                     <div className='flex flex-col flex-wrap'>
                         <div className='flex gap-4 justify-center sm:justify-end items-center'>
-                            <NavLink to={"/"} className="bg-color4 xl:hidden flex gap-2 px-1 justify-end items-center  hover:bg-pink-600 font-semibold  rounded-md text-center   font-Poppins text-[1.3rem] text-color1">
+                       
+                            <a href="src\public\cv\DiegoBotelloCV.pdf" download={"DiegoBotello"} className="bg-color4 xl:hidden flex gap-2 px-1 justify-end items-center  hover:bg-pink-600 font-semibold  rounded-md text-center   font-Poppins text-[1.3rem] text-color1">
                                 Ver <InlineIcon style={{ display: "inline" }} className='text-[2.1rem] text-color1' icon="academicons:cv-square" />
-                            </NavLink>
+                            </a>
                             <InlineIcon onClick={whatsapp} style={{ display: "inline" }} className='text-[2.6rem] text-color4 cursor-pointer' icon="fa-brands:whatsapp-square" />
                             <InlineIcon onClick={github} style={{ display: "inline" }} className='text-[2.3rem] text-color4  cursor-pointer' icon="fa:github-square" />
                             <InlineIcon onClick={linkendin} style={{ display: "inline" }} className='text-[2.3rem] text-color4 cursor-pointer' icon="brandico:linkedin-rect" />
@@ -56,9 +57,9 @@ const Home = () => {
                         </div>
                     </div>
 
-                    
+
                 </div>
-            
+
             </div>
         </div>
     )
