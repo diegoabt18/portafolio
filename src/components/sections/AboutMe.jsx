@@ -19,9 +19,9 @@ const AboutMe = () => {
                     </p>
                 </div>
 
-                <div className='font-Poppins grid sm:grid-cols-2'>
+                <div className='font-Poppins grid md:grid-cols-2'>
                     <div className='sm:pr-4  flex items-center justify-center   pb-4'>
-                        <img className='w-[250px]' src={foto} />
+                        <img className='w-[350px]' src="https://raw.githubusercontent.com/diegoabt18/img/main/img_portafolio/perlfil2.jpeg" />
                     </div>
                     <div className='text-color5 flex flex-col justify-center '>
                         <h1 className='text-[1.3rem] sm:text-[1.5rem] xl:text-[2rem] text-color3 font-bold pb-2 '>Sobre mÍ</h1>
