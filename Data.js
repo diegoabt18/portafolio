@@ -19,8 +19,8 @@ const Data=
             "iconsback":[],
             "despligue": "https://ecomerce-embellecimientoautomotrizv2-6zpwizccu-diegoabt18.vercel.app/",
             "github": "https://github.com/diegoabt18/ecomerce_embellecimientoautomotriz",
-            "image2": "https://raw.githubusercontent.com/diegoabt18/img/main/img_portafolio/ecommerce.png",
-            "image": "https://raw.githubusercontent.com/diegoabt18/img/main/img_portafolio/ecommerce.png",
+            "image2": "https://raw.githubusercontent.com/diegoabt18/img/main/img_portafolio/ecommerce1.png",
+            "image": "https://raw.githubusercontent.com/diegoabt18/img/main/img_portafolio/ecommerce1.png",
             
         },
         {
@@ -32,8 +32,8 @@ const Data=
             "iconsback":[],
             "despligue": "https://lord-mugen.github.io/Covid_19/",
             "github": "https://github.com/Lord-Mugen/Covid_19",
-            "image2": "https://raw.githubusercontent.com/diegoabt18/img/main/img_portafolio/covid19.png",        
-            "image": "https://raw.githubusercontent.com/diegoabt18/img/main/img_portafolio/covid19.png"
+            "image2": "https://raw.githubusercontent.com/diegoabt18/img/main/img_portafolio/covid191.png",        
+            "image": "https://raw.githubusercontent.com/diegoabt18/img/main/img_portafolio/covid191.png"
         },
         {
             "id":3,
