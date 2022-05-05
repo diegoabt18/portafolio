@@ -14,7 +14,7 @@ const Footer = () => {
     }
 
     function linkendin(){
-        window.open("www.linkedin.com/in/diego-botello")
+        window.open("https://www.linkedin.com/in/diego-botello/")
     }
 
     return (
