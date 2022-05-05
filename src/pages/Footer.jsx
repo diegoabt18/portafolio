@@ -19,7 +19,7 @@ const Footer = () => {
 
     return (
         <div id='CV' className='bg-color1 lg:bg-color4'>
-            <div className=' mt-16 px-4 sm:mt-0 sm:ml-28 lg:ml-80'>
+            <div className='  px-4 sm:mt-0 sm:ml-28 lg:ml-80'>
                 <div className='flex gap-4 justify-center p-4 items-center'>
                     
                     <InlineIcon onClick={whatsapp} style={{ display: "inline" }} className='text-[2.2rem] text-color4 sm:text-color1 ' icon="fa-brands:whatsapp-square" />

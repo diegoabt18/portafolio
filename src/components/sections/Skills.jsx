@@ -55,23 +55,20 @@ const Skills = () => {
 
                     <div className="code-description pt-5 lg:pt-0 overflow-hidden  text-white lg:pl-8 md:pr-2 w-full h-[400px] sm:h-[350px] lg:h-[400px]">
 
-                        <div id="profile" className="html-desc ">
+                        <div id="profile" className="html-desc relative">
                             <h1 className='animate__animated animate__zoomIn text-[1.7rem] sm:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem]   font-bold text-color3'>Experiencia</h1>
+                            <InlineIcon className='animate__animated animate__slideInRight   top-0 right-0 absolute opacity-20 text-[15rem]  lg:text-[20rem] text-color4 cursor-pointer' icon="carbon:skill-level-intermediate" />
 
                             <p className='animate__animated animate__fadeIn animate__delay-1s text-color5 sm:text-[1.1rem] '>
-                                Lorem ipsum dolor sit amet consectetur adipisicing
-                                elit. Ab illo blanditiis libero recusandae in.
-                                Placeat libero exercitationem incidunt atque fuga in,
-                                blanditiis laudantium omnis ea corporis facilis nihil
-                                eligendi mollitia?
+                                Mi experiencia la he venido construyendo a traves de mis proyectos realizados,
+                                he manejado una variedad de lenguajes y herramientas que me permiten ser un
+                                buen desarrollador front-end, como por ejemplo: HTML, JavaScript, Css,
+                                frameworks como react, vue, desde el backend he desarrollado competencias
+                                en python, django, sql con mysql y postgres y Java.
+                               
 
-                                Lorem ipsum dolor sit amet consectetur adipisicing
-                                elit. Ab illo blanditiis libero recusandae in.
-                                Placeat libero exercitationem incidunt atque fuga in,
-                                blanditiis laudantium omnis ea corporis facilis nihil
-                                eligendi mollitia?
                             </p>
-
+                            
                         </div>
 
                         <div id="html1" className="relative html-desc bg-transparent hidden h-full w-full sm:text-[1.1rem]">
@@ -87,7 +84,7 @@ const Skills = () => {
                                         crear la estructura
                                         (o cuerpo) básica de un sitio web mediante tags (etiquetas). El número cinco (5) hace
                                         referencia a la versión
-                                        en la que se encuentra actualmente. 
+                                        en la que se encuentra actualmente.
                                     </p>
                                     <div className="code-icon"></div>
                                 </div>
@@ -103,7 +100,7 @@ const Skills = () => {
                                     <p className='font-extralight'><span className='font-bold text-color3'>Descripcción: </span>
                                         CSS es un lenguaje de estilo. Sus siglas también tienen un significado 'Cascading
                                         StyleSheet',
-                                        su traducción es 'Hojas de estilo de cascada'. 
+                                        su traducción es 'Hojas de estilo de cascada'.
                                         Este lenguaje de estilos nos permite darle estilos al cuerpo de nuestro sitio
                                         web.
                                         Es el maquillaje de HTML. Todo el diseño de un sitio va directamente relacionado con
@@ -141,11 +138,8 @@ const Skills = () => {
                                     <p><span className='font-bold text-color3'>Duración: </span>3 meses</p>
                                     <p><span className='font-bold text-color3'>Lenguaje: </span>Node.js </p>
                                     <p className='font-extralight'><span className='font-bold text-color3'>Descripcción: </span>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. Molestias, officiis ipsum eum accusantium sit
-                                        voluptas eos fugiat corrupti deleniti est doloremque
-                                        esse, inventore dolore. Earum ut minus accusantium
-                                        nisi veritatis?
+                                    Node.js, es un entorno en tiempo de ejecución multiplataforma para la capa del servidor basado en JavaScript.
+                                    Node.js es un entorno controlado por eventos diseñado para crear aplicaciones escalables, permitiéndote establecer y gestionar múltiples conexiones al mismo tiempo.
                                     </p>
                                     <div className="code-icon"></div>
                                 </div>
@@ -159,11 +153,7 @@ const Skills = () => {
                                     <p><span className='font-bold text-color3'>Duración: </span>6 meses</p>
                                     <p><span className='font-bold text-color3'>Lenguaje: </span>React Framework </p>
                                     <p className='font-extralight'><span className='font-bold text-color3'>Descripcción: </span>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. Molestias, officiis ipsum eum accusantium sit
-                                        voluptas eos fugiat corrupti deleniti est doloremque
-                                        esse, inventore dolore. Earum ut minus accusantium
-                                        nisi veritatis?
+                                    Es una librería de código abierto que se utiliza principalmente para construir interfaces; es decir, es una tecnología enfocada en la interactividad. Está orientada al front-end
                                     </p>
                                     <div className="code-icon"></div>
                                 </div>
@@ -177,11 +167,7 @@ const Skills = () => {
                                     <p><span className='font-bold text-color3'>Duración: </span>6 meses</p>
                                     <p><span className='font-bold text-color3'>Lenguaje: </span>Tailwind css </p>
                                     <p className='font-extralight'><span className='font-bold text-color3'>Descripcción: </span>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. Molestias, officiis ipsum eum accusantium sit
-                                        voluptas eos fugiat corrupti deleniti est doloremque
-                                        esse, inventore dolore. Earum ut minus accusantium
-                                        nisi veritatis?
+                                    Tailwind CSS es un framework CSS que permite un desarrollo ágil, basado en clases de utilidad que se pueden aplicar con facilidad en el código HTML y unos flujos de desarrollo que permiten optimizar mucho el peso del código CSS.
                                     </p>
                                     <div className="code-icon"></div>
                                 </div>
@@ -195,11 +181,7 @@ const Skills = () => {
                                     <p><span className='font-bold text-color3'>Duración: </span>6 meses</p>
                                     <p><span className='font-bold text-color3'>Lenguaje: </span>Bootstrap css </p>
                                     <p className='font-extralight'><span className='font-bold text-color3'>Descripcción: </span>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. Molestias, officiis ipsum eum accusantium sit
-                                        voluptas eos fugiat corrupti deleniti est doloremque
-                                        esse, inventore dolore. Earum ut minus accusantium
-                                        nisi veritatis?
+                                    Bootstrap es un framework front-end utilizado para desarrollar aplicaciones web y sitios mobile first, o sea, con un layout que se adapta a la pantalla del dispositivo utilizado por el usuario.
                                     </p>
                                     <div className="code-icon"></div>
                                 </div>

@@ -9,25 +9,25 @@ const Services = () => {
             'id': 1,
             'logo': 'akar-icons:github-fill',
             'title': 'Desarrollador web',
-            'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio tempore officia perspiciatis eum molestias eveniet. Dolores, reiciendis. Praesentium, accusantium tenetur. Nihil ex ut, minus ea neque aliquid cumque nostrum.'
+            'description': ['Aplicaciones web','Paginas web personalizadas','Landing Page', 'Mantenimiento de paginas web']
         },
         {
             'id': 2,
             'logo': 'fa-solid:cube',
-            'title': 'Diseño responsive',
-            'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio tempore officia perspiciatis eum molestias eveniet. Dolores, reiciendis. Praesentium, accusantium tenetur. Nihil ex ut, minus ea neque aliquid cumque nostrum.'
+            'title': 'Diseño web',
+            'description': ['Diseño responsivo', 'Diseño creativo', 'Intefaces intuitivas para el usuario']
         },
         {
             'id': 3,
             'logo': 'fluent:design-ideas-20-filled',
             'title': 'Diseño funcional',
-            'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio tempore officia perspiciatis eum molestias eveniet. Dolores, reiciendis. Praesentium, accusantium tenetur. Nihil ex ut, minus ea neque aliquid cumque nostrum.'
+            'description': ['Clean code', 'buenas practicas de desarrollo']
         },
         {
             'id': 4,
             'logo': 'el:group',
             'title': 'Trabajo en equipo',
-            'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio tempore officia perspiciatis eum molestias eveniet. Dolores, reiciendis. Praesentium, accusantium tenetur. Nihil ex ut, minus ea neque aliquid cumque nostrum.'
+            'description': ['Trabajo colaborativo', 'Buena comunicación', 'Apoyo a las decisiones de grupo', 'Capacidad e aprender de los demas', 'Trabajo activo']
         }
     ]
 
