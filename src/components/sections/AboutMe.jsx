@@ -6,10 +6,10 @@ import foto from '../../images/foto.jpg'
 const AboutMe = () => {
     return (
         < div className='bg-color13 '>
-            <div id="Profile" className=' flex font-Poppins flex-col pt-12 xl:mr-6 gap-2 mt-16 px-4 sm:mt-0 sm:ml-28 lg:ml-60 xl:ml-50'>
+            <div id="Profile" className=' flex font-Poppins flex-col pt-12 xl:mr-6 gap-2  px-4 sm:mt-0 sm:ml-28 lg:ml-60 xl:ml-50'>
 
                 <div className='flex flex-col justify-center items-center text-color5 font-light'>
-                    <h1 className='text-[1.7rem] sm:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem]  text-center font-bold text-color4'>Mi Perfil</h1>
+                    <h1 className='text-[1.9rem] sm:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem]  text-center font-bold text-color4'>Mi Perfil</h1>
                     <p className='xl:w-[70%] text-center sm:text-[1.1rem] pb-4'>
                         Soy un  desarrollador en crecimiento enfocado en el "front-end"
                         desarrollo de aplicaciones web, actualmente me encuentro estudiando

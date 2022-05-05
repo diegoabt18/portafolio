@@ -42,10 +42,10 @@ const Projects = () => {
 
   return (
     <div className='bg-color13'>
-      <div id="Projects" className='  pt-4 flex flex-col lg:mr-6 gap-2 mt-16 px-4 sm:mt-0 sm:ml-28 lg:ml-60 xl:ml-50 '>
+      <div id="Projects" className='  pt-4 flex flex-col lg:mr-6 gap-2 pt-16 px-4 sm:mt-0 sm:ml-28 lg:ml-60 xl:ml-50 '>
         <div className='flex flex-col justify-center items-center text-color5 font-light pb-6'>
-          <h1 className='text-[1.7rem] sm:text-[2rem] lg:text-[2.2rem] xl:text-[3rem]  text-center font-bold text-color4'>Mis Proyectos</h1>
-          <p className='xl:w-[60%]  text-center sm:text-[1.1rem] pt-2 pb-4 font-Poppins'>
+          <h1 className='text-[1.9rem] sm:text-[2rem] lg:text-[2.2rem] xl:text-[3rem]  text-center font-bold text-color4'>Mis Proyectos</h1>
+          <p className='xl:w-[60%]  text-center sm:text-[1.1rem] pt-2 font-Poppins'>
             En esta seccion podras ver mi trabajo, observa a detalle cada uno de mis poryectos realizados
           </p>
         </div>
@@ -57,7 +57,7 @@ const Projects = () => {
             <CategoryButton text="Php" link="Php" />
           </div>
 
-          <div className='grid grid-cols-2 sm:grid-cols-3 gap-3 pt-10  overflow-hidden'>
+          <div className='grid grid-cols-1 sm:grid-cols-3 gap-3 pt-10  overflow-hidden'>
             {
               data.map(item => {
                 return <CardProject key={item.id} image={item.image} description={item.descripcion} title={item.titulo} id={"card" + item.id} iditem={item.id} github={item.github} desploy={item.despligue} language={item.lenguajes} icons={item.icons} />

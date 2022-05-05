@@ -33,16 +33,16 @@ const Services = () => {
 
     return (
         <div className='bg-color12'>
-            <div id="Services" className=' flex flex-col sm:mr-6 gap-2 mt-16 px-4 sm:mt-0 sm:ml-28 lg:ml-60 xl:ml-50'>
+            <div id="Services" className=' flex flex-col sm:mr-6 gap-2 pt-16 px-4 sm:pt-0 sm:ml-28 lg:ml-60 xl:ml-50'>
                 {/*<div className='flex h-fit'>
                 <h1 className='pt-4 font-Dhyana text-xl text-white border-b-4 border-color4 lg:text-[1.6rem]'>Servicios</h1>
              </div>*/}
-                <div className='pt-12'>
+                <div className=' lg:pt-12'>
 
                 </div>
                 <div className='text-white font-Poppins '>
                     <div className='flex flex-col justify-center items-center text-color5 font-light'>
-                        <h1 className='text-[1.7rem] sm:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem]  text-center font-bold text-color4'>Mis servicios</h1>
+                        <h1 className='text-[1.9rem] sm:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem]  text-center font-bold text-color4'>Mis servicios</h1>
                         <p className='xl:w-[50%] sm:text-[1.1rem] text-center'>
                             Diseñar y programar sitios web responsivas, crear 
                             y definir interfazes gráficas para que resulte 

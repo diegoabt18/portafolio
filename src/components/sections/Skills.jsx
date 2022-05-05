@@ -30,10 +30,10 @@ const Skills = () => {
 
     return (
         <div className='bg-color12'>
-            <div id="Skills" className='lg:pt-10 font-Poppins  flex flex-col mr-6 gap-2 mt-16 px-4 sm:mt-10 xl:mt-0 sm:ml-28 lg:ml-60 xl:ml-50'>
+            <div id="Skills" className='lg:pt-10 font-Poppins  flex flex-col  gap-2 pt-16 px-4 sm:mt-10 xl:mt-0 sm:ml-28 lg:ml-60 xl:ml-50'>
 
                 <div className='flex flex-col justify-center items-center text-color5 font-light pb-6'>
-                    <h1 className='text-[1.7rem] sm:text-[2rem] lg:text-[2.2rem] xl:text-[3rem]  text-center font-bold text-color4'>Mis Skills</h1>
+                    <h1 className='text-[1.9rem] sm:text-[2rem] lg:text-[2.2rem] xl:text-[3rem]  text-center font-bold text-color4'>Mis Skills</h1>
                 </div>
                 <div className='flex flex-col lg:flex-row items-center'>
 
@@ -53,7 +53,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className="code-description pt-5 lg:pt-0 overflow-hidden  text-white lg:pl-8 md:pr-2 w-full h-[250px]  sm:h-[300px] lg:h-[400px]">
+                    <div className="code-description pt-5 lg:pt-0 overflow-hidden  text-white lg:pl-8 md:pr-2 w-full h-[400px] sm:h-[350px] lg:h-[400px]">
 
                         <div id="profile" className="html-desc ">
                             <h1 className='animate__animated animate__zoomIn text-[1.7rem] sm:text-[2rem] lg:text-[2.2rem] xl:text-[2.5rem]   font-bold text-color3'>Experiencia</h1>
@@ -75,82 +75,72 @@ const Skills = () => {
                         </div>
 
                         <div id="html1" className="relative html-desc bg-transparent hidden h-full w-full sm:text-[1.1rem]">
-                            <InlineIcon className='animate__animated animate__slideInRight   top-0 right-0 absolute opacity-20  lg:text-[20rem] text-color4 cursor-pointer' icon={imagIcons[0]} />
+                            <InlineIcon className='animate__animated animate__slideInRight   top-0 right-0 absolute opacity-20 text-[15rem]  lg:text-[20rem] text-color4 cursor-pointer' icon={imagIcons[0]} />
                             <div className='absolute  flex flex-col gap-2'>
-                                <h1 className='text-color6 animate__animated animate__zoomIn font-bold lg:text-[2.5rem] '>HTML</h1>
+                                <h1 className='text-color6 animate__animated animate__zoomIn font-bold text-[1.5rem] sm:text-[2rem] lg:text-[2.5rem] '>HTML</h1>
                                 <div className='asdaswwwwwe animate__animated animate__fadeIn animate__delay-1s'>
-                                    <p><span className='font-bold text-color5'>Duración: </span>6 meses</p>
-                                    <p><span className='font-bold text-color5'>Lenguaje: </span>HTML5 (most recent)</p>
-                                    <p><span className='font-bold text-color5'>Descripcción: </span>
-
+                                    <p><span className='font-bold text-color3'>Duración: </span>6 meses</p>
+                                    <p><span className='font-bold text-color3'>Lenguaje: </span>HTML5 </p>
+                                    <p className='font-extralight'><span className='font-bold text-color3'>Descripcción: </span>
                                         Sus siglas vienen del inglés 'HyperText Markup Language'. Traducido al español
                                         quiere decir 'Lenguaje de Marcado e HiperTexto'. Este lenguaje de marcado nos permite
                                         crear la estructura
                                         (o cuerpo) básica de un sitio web mediante tags (etiquetas). El número cinco (5) hace
                                         referencia a la versión
-                                        en la que se encuentra actualmente. Todos los titulos, párrafos, formularios, videos,
-                                        entre muchísimas cosas más,
-                                        las tenemos gracias a este maravilloso lenguaje.
-
+                                        en la que se encuentra actualmente. 
                                     </p>
                                     <div className="code-icon"></div>
                                 </div>
                             </div>
                         </div>
                         <div id="css2" className="relative html-desc hidden h-full w-full sm:text-[1.1rem]">
-                            <InlineIcon className='animate__animated animate__slideInRight   top-0 right-0 absolute opacity-20  lg:text-[20rem] text-color4 cursor-pointer' icon={imagIcons[1]} />
+                            <InlineIcon className='animate__animated animate__slideInRight   top-0 right-0 absolute opacity-20 text-[15rem]  lg:text-[20rem] text-color4 cursor-pointer' icon={imagIcons[1]} />
                             <div className='absolute  flex flex-col gap-2'>
-                                <h1 className='text-color7 animate__animated animate__zoomIn font-bold lg:text-[2.5rem]'>CSS</h1>
+                                <h1 className='text-color7 animate__animated animate__zoomIn font-bold text-[1.5rem] sm:text-[2rem] lg:text-[2.5rem]'>CSS</h1>
                                 <div className='asdaswwwwwe animate__animated animate__fadeIn animate__delay-1s'>
-                                    <p><span className='font-bold text-color5'>Duración: </span>6 meses</p>
-                                    <p><span className='font-bold text-color5'>Lenguaje: </span>CSS (most recent)</p>
-                                    <p><span className='font-bold text-color5'>Descripcción: </span>
-
+                                    <p><span className='font-bold text-color3'>Duración: </span>6 meses</p>
+                                    <p><span className='font-bold text-color3'>Lenguaje: </span>CSS </p>
+                                    <p className='font-extralight'><span className='font-bold text-color3'>Descripcción: </span>
                                         CSS es un lenguaje de estilo. Sus siglas también tienen un significado 'Cascading
                                         StyleSheet',
-                                        su traducción es 'Hojas de estilo de cascada'. Seguro ya sabrás qué quiere decir el
-                                        número tres (3),
-                                        ¿verdad? ¡Exacto! Su versión actual.
-                                        Este lenguaje de estilos nos permite... pues, darle estilos al cuerpo de nuestro sitio
+                                        su traducción es 'Hojas de estilo de cascada'. 
+                                        Este lenguaje de estilos nos permite darle estilos al cuerpo de nuestro sitio
                                         web.
                                         Es el maquillaje de HTML. Todo el diseño de un sitio va directamente relacionado con
                                         este lenguaje.
-
                                     </p>
                                     <div className="code-icon"></div>
                                 </div>
                             </div>
                         </div>
                         <div id="js3" className="relative html-desc hidden h-full w-full sm:text-[1.1rem]">
-                            <InlineIcon className='animate__animated animate__slideInRight   top-0 right-0 absolute opacity-20  lg:text-[20rem] text-color4 cursor-pointer' icon={imagIcons[2]} />
+                            <InlineIcon className='animate__animated animate__slideInRight   top-0 right-0 absolute opacity-20 text-[15rem]  lg:text-[20rem] text-color4 cursor-pointer' icon={imagIcons[2]} />
                             <div className='absolute  flex flex-col gap-2'>
-                                <h1 className='text-[#F5DE19] animate__animated animate__zoomIn font-bold lg:text-[2.5rem]'>JavaScript</h1>
+                                <h1 className='text-[#F5DE19] animate__animated animate__zoomIn font-bold text-[1.5rem] sm:text-[2rem] lg:text-[2.5rem]'>JavaScript</h1>
                                 <div className='asdaswwwwwe animate__animated animate__fadeIn animate__delay-1s'>
-                                    <p><span className='font-bold text-color5'>Duración: </span>6 meses</p>
-                                    <p><span className='font-bold text-color5'>Lenguaje: </span>JS (most recent)</p>
-                                    <p><span className='font-bold text-color5'>Descripcción: </span>
+                                    <p><span className='font-bold text-color3'>Duración: </span>6 meses</p>
+                                    <p><span className='font-bold text-color3'>Lenguaje: </span>JS </p>
+                                    <p className='font-extralight'><span className='font-bold text-color3'>Descripcción: </span>
 
-                                        ¡Bendito JavaScript! Es un lenguaje de programación que nos permite añadir, eliminar,
+                                        ¡JavaScript! Es un lenguaje de programación que nos permite añadir, eliminar,
                                         aplicar animaciones o
                                         efectos a los componentes de nuestro sitio. Es la herramienta perfecta para realizar
                                         sitios web dinámicos
                                         y muy atractivos de la mano de CSS y HTML. Con el paso del tiempo ha evolucionado de
-                                        manera exponencial y
-                                        ahora mismo es absolutamente necesario conocerlo si quieres ser desarrollador web.
-
+                                        manera exponencial.
                                     </p>
                                     <div className="code-icon"></div>
                                 </div>
                             </div>
                         </div>
                         <div id="nodejs4" className="relative html-desc hidden h-full w-full sm:text-[1.1rem]">
-                            <InlineIcon className='animate__animated animate__slideInRight   top-0 right-0 absolute opacity-20  lg:text-[20rem] text-color4 cursor-pointer' icon={imagIcons[3]} />
+                            <InlineIcon className='animate__animated animate__slideInRight   top-0 right-0 absolute opacity-20 text-[15rem]  lg:text-[20rem] text-color4 cursor-pointer' icon={imagIcons[3]} />
                             <div className='absolute  flex flex-col gap-2'>
-                                <h1 className='text-[#83CD29] animate__animated animate__zoomIn font-bold lg:text-[2.5rem]'>Node</h1>
+                                <h1 className='text-[#83CD29] animate__animated animate__zoomIn font-bold text-[1.5rem] sm:text-[2rem] lg:text-[2.5rem]'>Node</h1>
                                 <div className='asdaswwwwwe animate__animated animate__fadeIn animate__delay-1s'>
-                                    <p><span className='font-bold text-color5'>Duración: </span>3 meses</p>
-                                    <p><span className='font-bold text-color5'>Lenguaje: </span>Node.js (most recent)</p>
-                                    <p><span className='font-bold text-color5'>Descripcción: </span>
+                                    <p><span className='font-bold text-color3'>Duración: </span>3 meses</p>
+                                    <p><span className='font-bold text-color3'>Lenguaje: </span>Node.js </p>
+                                    <p className='font-extralight'><span className='font-bold text-color3'>Descripcción: </span>
                                         Lorem ipsum dolor sit amet consectetur adipisicing
                                         elit. Molestias, officiis ipsum eum accusantium sit
                                         voluptas eos fugiat corrupti deleniti est doloremque
@@ -162,13 +152,13 @@ const Skills = () => {
                             </div>
                         </div>
                         <div id="react5" className="relative html-desc hidden h-full w-full sm:text-[1.1rem]">
-                            <InlineIcon className='animate__animated animate__slideInRight   top-0 right-0 absolute opacity-20  lg:text-[20rem] text-color4 cursor-pointer' icon={imagIcons[4]} />
+                            <InlineIcon className='animate__animated animate__slideInRight   top-0 right-0 absolute opacity-20 text-[15rem]  lg:text-[20rem] text-color4 cursor-pointer' icon={imagIcons[4]} />
                             <div className='absolute  flex flex-col gap-2'>
-                                <h1 className='text-[#00D8FF] animate__animated animate__zoomIn font-bold lg:text-[2.5rem]'>React</h1>
+                                <h1 className='text-[#00D8FF] animate__animated animate__zoomIn font-bold text-[1.5rem] sm:text-[2rem] lg:text-[2.5rem]'>React</h1>
                                 <div className='asdaswwwwwe animate__animated animate__fadeIn animate__delay-1s'>
-                                    <p><span className='font-bold text-color5'>Duración: </span>6 meses</p>
-                                    <p><span className='font-bold text-color5'>Lenguaje: </span>React Framework (most recent)</p>
-                                    <p><span className='font-bold text-color5'>Descripcción: </span>
+                                    <p><span className='font-bold text-color3'>Duración: </span>6 meses</p>
+                                    <p><span className='font-bold text-color3'>Lenguaje: </span>React Framework </p>
+                                    <p className='font-extralight'><span className='font-bold text-color3'>Descripcción: </span>
                                         Lorem ipsum dolor sit amet consectetur adipisicing
                                         elit. Molestias, officiis ipsum eum accusantium sit
                                         voluptas eos fugiat corrupti deleniti est doloremque
@@ -180,13 +170,13 @@ const Skills = () => {
                             </div>
                         </div>
                         <div id="tailwind6" className="relative html-desc hidden h-full w-full sm:text-[1.1rem]">
-                            <InlineIcon className='animate__animated animate__slideInRight   top-0 right-0 absolute opacity-20  lg:text-[20rem] text-color4 cursor-pointer' icon={imagIcons[5]} />
+                            <InlineIcon className='animate__animated animate__slideInRight   top-0 right-0 absolute opacity-20 text-[15rem]  lg:text-[20rem] text-color4 cursor-pointer' icon={imagIcons[5]} />
                             <div className='absolute  flex flex-col gap-2'>
-                                <h1 className='text-[#44A8B3] animate__animated animate__zoomIn font-bold lg:text-[2.5rem]'>Tailwind</h1>
+                                <h1 className='text-[#44A8B3] animate__animated animate__zoomIn font-bold text-[1.5rem] sm:text-[2rem] lg:text-[2.5rem]'>Tailwind</h1>
                                 <div className='asdaswwwwwe animate__animated animate__fadeIn animate__delay-1s'>
-                                    <p><span className='font-bold text-color5'>Duración: </span>6 meses</p>
-                                    <p><span className='font-bold text-color5'>Lenguaje: </span>Tailwind css (most recent)</p>
-                                    <p><span className='font-bold text-color5'>Descripcción: </span>
+                                    <p><span className='font-bold text-color3'>Duración: </span>6 meses</p>
+                                    <p><span className='font-bold text-color3'>Lenguaje: </span>Tailwind css </p>
+                                    <p className='font-extralight'><span className='font-bold text-color3'>Descripcción: </span>
                                         Lorem ipsum dolor sit amet consectetur adipisicing
                                         elit. Molestias, officiis ipsum eum accusantium sit
                                         voluptas eos fugiat corrupti deleniti est doloremque
@@ -198,13 +188,13 @@ const Skills = () => {
                             </div>
                         </div>
                         <div id="bootstrap7" className="relative html-desc hidden h-full w-full sm:text-[1.1rem]">
-                            <InlineIcon className='animate__animated animate__slideInRight   top-0 right-0 absolute opacity-20  lg:text-[20rem] text-[#563D7C] cursor-pointer' icon={imagIcons[6]} />
+                            <InlineIcon className='animate__animated animate__slideInRight   top-0 right-0 absolute opacity-20 text-[15rem]  lg:text-[20rem] text-[#563D7C] cursor-pointer' icon={imagIcons[6]} />
                             <div className='absolute  flex flex-col gap-2'>
-                                <h1 className='text-[#563D7C] animate__animated animate__zoomIn font-bold lg:text-[2.5rem]'>Bootstrap</h1>
+                                <h1 className='text-[#563D7C] animate__animated animate__zoomIn font-bold text-[1.5rem] sm:text-[2rem] lg:text-[2.5rem]'>Bootstrap</h1>
                                 <div className='asdaswwwwwe animate__animated animate__fadeIn animate__delay-1s'>
-                                    <p><span className='font-bold text-color5'>Duración: </span>6 meses</p>
-                                    <p><span className='font-bold text-color5'>Lenguaje: </span>Bootstrap css (most recent)</p>
-                                    <p><span className='font-bold text-color5'>Descripcción: </span>
+                                    <p><span className='font-bold text-color3'>Duración: </span>6 meses</p>
+                                    <p><span className='font-bold text-color3'>Lenguaje: </span>Bootstrap css </p>
+                                    <p className='font-extralight'><span className='font-bold text-color3'>Descripcción: </span>
                                         Lorem ipsum dolor sit amet consectetur adipisicing
                                         elit. Molestias, officiis ipsum eum accusantium sit
                                         voluptas eos fugiat corrupti deleniti est doloremque
