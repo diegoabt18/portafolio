@@ -99,7 +99,7 @@ const Header = () => {
                         </li>
                         <li className="sm:flex ">
                             <div className='menu-item bg-color5 w-3 hidden sm:block'></div>
-                            <a onClick={() => activeMenu(5)}  href=".\src\public\cv\DiegoBotelloCV.pdf" download={"DiegoBotello"} className="flex gap-2 sm:gap-0 lg:gap-3 sm:w-full lg:pl-5 pl-4 text-sm px-2 py-4 hover:text-white hover:bg-color4 focus:bg-color4 font-semibold lg:font-light">
+                            <a onClick={() => activeMenu(5)} href="/cv/DiegoBotelloCV.pdf" download={"DiegoBotello"} className="flex gap-2 sm:gap-0 lg:gap-3 sm:w-full lg:pl-5 pl-4 text-sm px-2 py-4 hover:text-white hover:bg-color4 focus:bg-color4 font-semibold lg:font-light">
                                 <InlineIcon style={{ display: "inline" }} className='text-[1.5rem] text-color1 sm:text-white lg:text-[2rem]' icon="iconoir:page-flip" />
                                 <h1 className='flex justify-center items-center sm:hidden lg:flex lg:text-[1.3rem] lg:text-white'> Descargar CV </h1>
                             </a>

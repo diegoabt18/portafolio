@@ -25,7 +25,7 @@ const Footer = () => {
                     <InlineIcon onClick={whatsapp} style={{ display: "inline" }} className='text-[2.2rem] text-color4 sm:text-color1 ' icon="fa-brands:whatsapp-square" />
                     <InlineIcon onClick={github} style={{ display: "inline" }} className='text-[1.9rem] text-color4 sm:text-color1 ' icon="fa:github-square" />
                     <InlineIcon onClick={linkendin} style={{ display: "inline" }} className='text-[1.9rem] text-color4 sm:text-color1 ' icon="brandico:linkedin-rect" />
-                    <a href=".\src\public\cv\DiegoBotelloCV.pdf" download={"DiegoBotello"}>
+                    <a href="/cv/DiegoBotelloCV.pdf" download={"DiegoBotello"}>
                         <InlineIcon style={{ display: "inline" }} className='text-[2.1rem] text-color4 sm:text-color1' icon="academicons:cv-square" />
                     </a>
 
