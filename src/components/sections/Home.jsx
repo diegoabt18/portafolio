@@ -28,7 +28,7 @@ const Home = () => {
                     <div className='flex flex-col flex-wrap'>
                         <div className='flex gap-4 justify-center sm:justify-end items-center'>
                        
-                            <a href=".\src\public\cv\DiegoBotelloCV.pdf" download={"DiegoBotello"} className="bg-color4 xl:hidden flex gap-2 px-1 justify-end items-center  hover:bg-pink-600 font-semibold  rounded-md text-center   font-Poppins text-[1.3rem] text-color1">
+                            <a href="/cv/DiegoBotelloCV.pdf" download={"DiegoBotello"} className="bg-color4 xl:hidden flex gap-2 px-1 justify-end items-center  hover:bg-pink-600 font-semibold  rounded-md text-center   font-Poppins text-[1.3rem] text-color1">
                                 Ver <InlineIcon style={{ display: "inline" }} className='text-[2.1rem] text-color1' icon="academicons:cv-square" />
                             </a>
                             <InlineIcon onClick={whatsapp} style={{ display: "inline" }} className='text-[2.6rem] text-color4 cursor-pointer' icon="fa-brands:whatsapp-square" />
@@ -38,7 +38,7 @@ const Home = () => {
                         <h1 className='font-Poppins  font-bold text-[2rem] sm:text-[3rem]'>Hola,</h1>
                         <h1 className='font-Poppins  font-normal text-[1.5rem] sm:text-[2rem]'>Bienvenidos a mi portafolio web</h1>
                         <p className='font-Poppins font-extralight text-color5 sm:text-[1.5rem]'> Mi nombre es Diego Botello, soy desarrollador web full stack y profesional en el area de ingenieria de sistemas.</p>
-                        <NavLink to={"/"} className="bg-color3 hidden xl:block border-b-4 border-pink-900 hover:bg-pink-600 font-bold mt-4 w-1/2  lg:w-1/2 rounded-full text-center py-2 font-Poppins text-[1.3rem]">Ver CV</NavLink>
+                        <a href="/cv/DiegoBotelloCV.pdf" download={"DiegoBotello"} className="bg-color3 hidden xl:block border-b-4 border-pink-900 hover:bg-pink-600 font-bold mt-4 w-1/2  lg:w-1/2 rounded-full text-center py-2 font-Poppins text-[1.3rem]">Ver CV</a>
 
                     </div>
                     <div className=''>
