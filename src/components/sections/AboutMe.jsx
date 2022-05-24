@@ -13,7 +13,7 @@ const AboutMe = () => {
                     <p className='xl:w-[70%] text-center sm:text-[1.1rem] pb-4'>
                         Soy un  desarrollador en crecimiento enfocado en el "front-end"
                         desarrollo de aplicaciones web, actualmente me encuentro estudiando
-                        en el bootcamp de Educamas, e culminado mis estudios recientemente en
+                        en el Bootcamp de Educamas, he culminado mis estudios recientemente en
                         programación con MisionTic en desarrollo de aplicaciones web, y soy
                         ingeniero de sistemas egresado de la Universidad de Pamplona.
                     </p>
@@ -27,8 +27,8 @@ const AboutMe = () => {
                         <h1 className='text-[1.3rem] sm:text-[1.5rem] xl:text-[2rem] text-color3 font-bold pb-2 '>Sobre mÍ</h1>
 
                         <p className='sm:text-[1.1rem] pb-4'>
-                            ¡Hola! Mi nombre es Diego tengo 24 años y disfruto desarrollando cosas en el mundo tecnológico. Mi interés en el desarrollo comenzó desde mi escuela, aprendiondo los conceptos basicos de programacion y creando algorimos sencillos y luego comencé mis sueños de ser un buen desarrollador en el futuro.
-                            Avanzando rápidamente hasta hoy e realizado varios curso y culmine la Universidad en ingenieria de sistemas, aprendí mucho del mundo de la tecnología y los lenguajes de programación como java, JavaScript y Python utilizando framework de desarrollo como, Django, Vue, React ahora me estoy enfocando en el desarrollo web y aprendiendo cosas nuevas todos los días para ser un buen desarrollador.
+                            ¡Hola! Mi nombre es Diego tengo 24 años y disfruto desarrollando cosas en el mundo tecnológico. Mi interés en el desarrollo comenzó desde mi escuela, aprendiendo los conceptos básicos de programación y creando algoritmos sencillos, mi propósito es logar ser un buen desarrollador en el futuro.
+                            Avanzando rápidamente hasta hoy he realizado varios cursos en programación y culmine la Universidad en ingenieria de sistemas, aprendí mucho del mundo de la tecnología y los lenguajes de programación como java, JavaScript y Python utilizando framework de desarrollo como, Django, Vue, React ahora me estoy enfocando en el desarrollo web y aprendiendo cada día para ser un buen desarrollador.
                         </p>
                         <div className='grid grid-cols-1 px-6 sm:px-0 md:grid-cols-2 md:gap-y-6'>
                             <div>
