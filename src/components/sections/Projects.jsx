@@ -46,7 +46,7 @@ const Projects = () => {
         <div className='flex flex-col justify-center items-center text-color5 font-light pb-6'>
           <h1 className='text-[1.9rem] sm:text-[2rem] lg:text-[2.2rem] xl:text-[3rem]  text-center font-bold text-color4'>Mis Proyectos</h1>
           <p className='xl:w-[60%]  text-center sm:text-[1.1rem] pt-2 font-Poppins'>
-            En esta seccion podras ver mi trabajo, observa a detalle cada uno de mis poryectos realizados
+            En esta sección podrás ver mi trabajo, observa a detalle cada uno de mis poryectos realizados
           </p>
         </div>
         <div>

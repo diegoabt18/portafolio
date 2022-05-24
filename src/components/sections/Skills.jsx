@@ -60,7 +60,7 @@ const Skills = () => {
                             <InlineIcon className='animate__animated animate__slideInRight   top-0 right-0 absolute opacity-20 text-[15rem]  lg:text-[20rem] text-color4 cursor-pointer' icon="carbon:skill-level-intermediate" />
 
                             <p className='animate__animated animate__fadeIn animate__delay-1s text-color5 sm:text-[1.1rem] '>
-                                Mi experiencia la he venido construyendo a traves de mis proyectos realizados,
+                                Mi experiencia la he venido construyendo a través de mis proyectos realizados,
                                 he manejado una variedad de lenguajes y herramientas que me permiten ser un
                                 buen desarrollador front-end, como por ejemplo: HTML, JavaScript, Css,
                                 frameworks como react, vue, desde el backend he desarrollado competencias

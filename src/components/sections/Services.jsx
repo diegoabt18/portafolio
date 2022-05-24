@@ -27,7 +27,7 @@ const Services = () => {
             'id': 4,
             'logo': 'el:group',
             'title': 'Trabajo en equipo',
-            'description': ['Trabajo colaborativo', 'Buena comunicación', 'Apoyo a las decisiones de grupo', 'Capacidad e aprender de los demas', 'Trabajo activo']
+            'description': ['Trabajo colaborativo', 'Buena comunicación', 'Apoyo a las decisiones de grupo', 'Capacidad de aprender de los demas', 'Trabajo activo']
         }
     ]
 
@@ -46,7 +46,7 @@ const Services = () => {
                         <p className='xl:w-[50%] sm:text-[1.1rem] text-center'>
                             Diseñar y programar sitios web responsivas, crear 
                             y definir interfazes gráficas para que resulte 
-                            atractiva al usuario. buena comunicacion y exelente trabajo en equipo.
+                            atractiva al usuario. buena comunicacion y excelente trabajo en equipo.
                         </p>
                     </div>
 
